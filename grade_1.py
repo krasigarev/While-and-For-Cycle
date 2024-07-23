@@ -2,7 +2,7 @@ name = input()
 counter_grade = 1
 result = 0
 fail_counter = 0
-is_not_graduated = False
+is_not_graduated = None
 
 while counter_grade <= 12:
     score = float(input())
@@ -15,7 +15,8 @@ while counter_grade <= 12:
         if fail_counter > 1:
             is_not_graduated = True
             print(f"{name} has been excluded ar {counter_grade} grade.")
+            break
 
-if not is_not_graduated:
+if not fail_counter > 1:
     average_score = result / 12
     print(f"{name} graduated. Average grade: {average_score:.2f}")
