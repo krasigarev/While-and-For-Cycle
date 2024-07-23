@@ -1,4 +1,4 @@
-width = int(input()) #TODO ширина
+width = int(input())
 length = int(input())
 height = int(input())
 
