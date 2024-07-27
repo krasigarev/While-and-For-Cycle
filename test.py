@@ -1,27 +1,27 @@
-# s = "Geeks"
-#
-# for i in s:
-#     print(i)
-#
-# for num in range(2, 10, 2):
-#     print(num)
-#
-# list1 = ["eat", "sleep", "repeat"]
-#
-# for count, element in enumerate(list1):
-#     print(count, element)
-#
-# for i in range(1, 4):
-#     for j in range(1, 4):
-#         print(i, j)
-#
-# list2 = ["geeks", "for", "geeks"]
-#
-# for i in list2:
-#     print(i)
-#
-# numbers = [x for x in range(11)]
-# print(numbers)
+s = "Geeks"
+
+for i in s:
+    print(i)
+
+for num in range(2, 10, 2):
+    print(num)
+
+list1 = ["eat", "sleep", "repeat"]
+
+for count, element in enumerate(list1):
+    print(count, element)
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j)
+
+list2 = ["geeks", "for", "geeks"]
+
+for i in list2:
+    print(i)
+
+numbers = [x for x in range(11)]
+print(numbers)
 
 print("Dictionary iteration")
 
@@ -49,3 +49,8 @@ colors = ["red", "yellow", "green"]
 
 for fruit, color in zip(fruits, colors):
     print(fruit, "is", color)
+
+for letter in 'geeksforgeeks':
+    if letter == "e" or letter == "s":
+        continue
+    print(f"Current letter : ", letter)
