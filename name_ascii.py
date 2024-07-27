@@ -15,5 +15,3 @@ while True:
     if letter_sum > max_sum:
         max_sum = letter_sum
         winner = name
-
-
