@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec24efb4-2509-4624-91ed-92cbfbddecd8" name="Changes" comment="for loop">
-      <change afterPath="$PROJECT_DIR$/vowel_summation.py" afterDir="false" />
+    <list default="true" id="ec24efb4-2509-4624-91ed-92cbfbddecd8" name="Changes" comment="latter">
+      <change afterPath="$PROJECT_DIR$/task.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +61,7 @@
     "Python.plates.executor": "Run",
     "Python.relocation.executor": "Run",
     "Python.sum_number.executor": "Debug",
+    "Python.task.executor": "Run",
     "Python.vowel_summation.executor": "Run",
     "Python.while.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -73,7 +74,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.vowel_summation">
+  <component name="RunManager" selected="Python.task">
     <configuration name="min_max" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="While and For Cycle" />
       <option name="ENV_FILES" value="" />
@@ -162,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sum_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="While and For Cycle" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,7 +176,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sum_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task" />
         <item itemvalue="Python.vowel_summation" />
         <item itemvalue="Python.odd_even_number_sum" />
         <item itemvalue="Python.number_sum" />
         <item itemvalue="Python.min_max" />
-        <item itemvalue="Python.sum_number" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +377,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722067623451</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="&#10;latter">
+      <option name="closed" value="true" />
+      <created>1722068212866</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722068212866</updated>
+    </task>
+    <task id="LOCAL-00020" summary="latter">
+      <option name="closed" value="true" />
+      <created>1722068249848</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722068249848</updated>
+    </task>
+    <task id="LOCAL-00021" summary="latter">
+      <option name="closed" value="true" />
+      <created>1722069162305</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1722069162305</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,7 +418,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="for loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="for loop" />
+    <MESSAGE value="&#10;latter" />
+    <MESSAGE value="latter" />
+    <option name="LAST_COMMIT_MESSAGE" value="latter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -407,6 +434,11 @@
           <url>file://$PROJECT_DIR$/sum_number.py</url>
           <line>4</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/task.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
