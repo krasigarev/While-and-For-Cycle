@@ -15,3 +15,4 @@ for latter in word:
         result += 5
 
 print(result)
+
