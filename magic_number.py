@@ -1,3 +1,4 @@
+# magic number
 n = int(input())
 
 for x1 in range(0, 10):
