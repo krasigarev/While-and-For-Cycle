@@ -54,3 +54,7 @@ for letter in 'geeksforgeeks':
     if letter == "e" or letter == "s":
         continue
     print(f"Current letter : ", letter)
+
+for letter1 in "geeksforgeeks":
+    pass
+print('Last letter: ', letter1)
