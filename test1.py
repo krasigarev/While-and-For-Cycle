@@ -22,9 +22,9 @@ for day in range(1, 8):
 x = [1, 2]
 y = [4, 5]
 
-# for i in x:
-#     for j in y:
-#         print(i, j)
+for i in x:
+    for j in y:
+        print(i, j)
 
 i = 0
 while i < len(x):
@@ -67,3 +67,11 @@ for i in range(2, 4):
 
 list_3 = [[j for j in range(3)] for i in range(5)]
 print(list_3)
+
+r = lambda q: q * 2
+s = lambda q: q * 3
+x = 2
+x = r(x)
+x = s(x)
+x = r(x)
+print(x)
